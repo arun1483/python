@@ -6,7 +6,7 @@ question = """Write a script that:
 ----------------------------------------------------
 """
 
-print(f"QUESTION+{question}")
+print(f"QUESTION={question}")
 listMethod = dir(list)
 print(listMethod)
 print(help(list.count))
